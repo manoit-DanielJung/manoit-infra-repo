@@ -1,7 +1,7 @@
 module "eks" {
   # eks 모듈에서 사용할 변수 정의
   source = "./modules/eks-cluster"
-  cluster_name = "fast-cluster"
+  cluster_name = "manoit-eks-cluster"
   cluster_version = "1.24"
   vpc_id = "vpc-09ec9a504619ffa0a"
 
